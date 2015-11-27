@@ -16,6 +16,7 @@ sudo apt-get install python3-gi python-nautilus zenity
 mkdir -p ~/.local/share/nautilus-python/extensions
 cd ~/.local/share/nautilus-python/extensions
 wget https://raw.githubusercontent.com/dmamontov/nautilus-create-file/master/nautilus-create-file.py
+nautilus -q
 ```
 #### Fedora
 ```bash
@@ -24,4 +25,5 @@ sudo yum install python3-3.3.0-1.fc18.i686 python3-cairo-1.10.0-4.fc18.i686 pyth
 mkdir -p ~/.local/share/nautilus-python/extensions
 cd ~/.local/share/nautilus-python/extensions
 wget https://raw.githubusercontent.com/dmamontov/nautilus-create-file/master/nautilus-create-file.py
+nautilus -q
 ```
